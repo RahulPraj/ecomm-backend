@@ -14,11 +14,10 @@ app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'))
 
+// GaWiZhoKVzkLa3Jq
 
-let MONGODB_URL = "mongodb+srv://rahul971801:ZVpWU7xfGTNjOA6r@cluster0.fd8px.mongodb.net/?retryWrites=true&w=majority";
+let MONGODB_URL = "mongodb+srv://rahul971801:GaWiZhoKVzkLa3Jq@cluster0.pcbaw.mongodb.net/?retryWrites=true&w=majority"
 
-
-// mongoose.connect('mongodb://127.0.0.1:27017/kleProject')
 mongoose.connect(MONGODB_URL)
 .then(()=>{
     console.log("DB is connected")
